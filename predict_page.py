@@ -5,6 +5,7 @@ import pandas as pd
 import time 
 from PIL import Image
 import base64
+import xgboost
 
 classifier = pickle.load(open("xgb_model.sav", "rb"))
 
